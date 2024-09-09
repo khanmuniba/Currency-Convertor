@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <h1>Currency Swap</h1>
+                <div class="input-container">
+                    <input type="number" value="1" min="1" class="amount" >
+                    <select  class="from-Currency">
+                        <option value="PKR">Pakistani Ruppee</option>
+                    </select>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                </div>
+                <div class="input-container">
+                    <input type="number" class="converted-amount" disabled >
+                    <select  class="To-Currency">
+                        <option value="USD">United States Dollar</option>
+                    </select>
+                </div>
+                <div class="value">
+                    <!-- 1USD=278PKR -->
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
